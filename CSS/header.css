@@ -59,7 +59,7 @@
 }
 
 .tochange:hover{
-    color: red;
+    color: #005C76;
 }
 
 .nav-bar ul a li{
@@ -86,4 +86,8 @@
     width: 1px;
     background-color:#AE8056;
     height: 40px;
+ }
+
+ .selected{
+    color: #AE8056;
  }
