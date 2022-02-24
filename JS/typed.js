@@ -1,4 +1,4 @@
-const texts = ["Hello, Bonjour, أهلا  ", "I am MOHAMED NAVEED", "I am a programming enthusiast", "Welcome to my page", "Thank you for visiting!"];
+const texts = ["Hello, Bonjour, أهلا  ", "I'm MOHAMED NAVEED", "I'm a programming enthusiast", "Welcome to my page", "Thank you for visiting!"];
 let count = 0;
 let index = 0;
 let currentText = "";
