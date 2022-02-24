@@ -1,24 +1,73 @@
-.main{
+.main {
     background-color: #202C33;
     height: calc(100vh - 78.15px - 6vh);
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
+}
 
-} 
-
-.main-container{
+.main-container {
     color: var(--color);
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    height: 70vh;
+    width: 90vw;
 }
 
-.main-container IMG{
-    width: 250px;
+.main-container IMG {
+    height: 70vh;
 }
 
-.text{
-    width: 50vw;
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 4vw;
+    font-weight: 100;
+}
+
+.name {
+    font-size: 3vw;
+    font-weight: 1000;
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+}
+
+.about {
+    font-size: 2vw;
+    font-weight: 200;
+}
+
+.Moreabout {
+    word-wrap: normal;
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+
+.btn button {
+    padding: 8px;
+    border-radius: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 15px 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn button:hover {
+    color: white;
+    background-color: black;
 }

@@ -57,7 +57,8 @@
     color: white;
     padding-left: 21px;
     padding-right: 21px;
-    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'JetBrains Mono', monospace;
     font-weight: 600;
 
 }
