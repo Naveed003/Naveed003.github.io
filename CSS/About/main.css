@@ -1,10 +1,17 @@
 .main {
     background-color: #202C33;
-    height: calc(100vh - 78.15px - 6vh);
+    /* height: calc(100vh - 78.15px - 6vh); */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    margin-top: 20px;
 }
 
 .main-container {
@@ -70,4 +77,28 @@
 .btn button:hover {
     color: white;
     background-color: var(--color);
+}
+
+.skills {
+    width: 90vw;
+    color: var(--color);
+    font-size: 2vw;
+    margin-top: 20px;
+}
+
+.SkillHeading {
+    display: flex;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.skilltext {
+    font-family: 'JetBrains Mono', monospace;
+    /* text-decoration: underline; */
+}
+
+.skillCard {
+    width: 85vw;
 }
