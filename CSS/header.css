@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@500&family=Source+Code+Pro&family=Ubuntu:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@500&family=Merriweather+Sans&family=Source+Code+Pro&family=Ubuntu:wght@400;500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -26,13 +26,15 @@
     box-sizing: border-box;
 
 }
-.pad{
-    padding: 13px 0px;
-}
-.name a img{
-    margin-right: 13px;
-}
 
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul a li{
+    list-style: none;
+    /* margin: 10px; */
+
+}
 .name a{
     text-decoration: none;
     color: white;
@@ -40,13 +42,13 @@
     font-size: 20px;
 
 }
-
-
-
-
-.nav-bar ul{
-    display: flex;
+.name a img{
+    margin-right: 13px;
 }
+
+
+
+
 
 .tochange{
     margin-top: 0px;
@@ -63,32 +65,17 @@
     color: var(--color);
 }
 
-.nav-bar ul a li{
-    list-style: none;
-    /* margin: 10px; */
-
-}
-
-/* .middle{
-    
-    border-color: var(--color);
-    border-style: solid;
-    border-width: 0px 1px 0px 1px;
-    border-radius: 1px;
-}
- */
-
 
 .right{
     display: flex;
     align-items: center;
 }
- .line{
+.line{
     width: 1px;
     background-color:var(--color);
     height: 40px;
- }
+}
 
- .selected{
+.selected{
     color: var(--color);
- }
+}
