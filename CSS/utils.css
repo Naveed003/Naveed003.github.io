@@ -1,0 +1,13 @@
+.pad{
+    padding: 13px 0px;
+}
+
+.line{
+    width: 1px;
+    background-color:var(--color);
+    height: 40px;
+}
+
+ .selected{
+    color: var(--color);
+}

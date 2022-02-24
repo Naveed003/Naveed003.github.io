@@ -1,11 +1,4 @@
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 6vh;
-    background-color: black;
-    color: white;
-}
+
 .main{
     background-image: url("/IMG/mac.jpeg");
     background-repeat: no-repeat;
@@ -25,14 +18,18 @@ footer{
 
 
 hr{
-    color: white;
+    color: var(--color);
     width: 100%;
+
+
+
 }
 
 
 .intro{
     display: flex;
-    color: white;
+    color:white;
+    font-weight: 900;
 }
 
 .typing{
