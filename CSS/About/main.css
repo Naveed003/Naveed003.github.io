@@ -3,8 +3,22 @@
     height: calc(100vh - 78.15px - 6vh);
     display:flex;
     justify-content: center;
+    align-items: center;
+    width: 100vw;
+
 } 
 
 .main-container{
     color: var(--color);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main-container IMG{
+    width: 250px;
+}
+
+.text{
+    width: 50vw;
 }
