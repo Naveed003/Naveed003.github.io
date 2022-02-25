@@ -1,7 +1,6 @@
 .cards {
     width: 25%;
-    background-color: #30393f;
-    /* background-color: #27353f; */
+    background-color: #202C33;
     margin: 10px;
     padding: 20px;
     height: 15%;
@@ -45,7 +44,7 @@
 .bar span {
     height: 100%;
     float: left;
-    background-image: linear-gradient(to right, rgb(255, 251, 6), rgb(0, 255, 0));
+    background-image: linear-gradient(to right, yellow,green);
     ;
 }
 
