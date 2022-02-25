@@ -114,7 +114,9 @@ footer {
 .skillCard {
     width: 85vw;
     height: 60vh;
-    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
 }
 
 .skill {

@@ -1,25 +1,105 @@
 .cards {
     width: 25%;
-    background-color: red;
+    background-color: #202C33;
     margin: 10px;
-    padding: 10px;
-    height: 30%;
+    padding: 20px;
+    height: 15%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.skill {
+.cards li {
+    list-style: none;
+}
+
+.cards li h3 {
+    text-transform: uppercase;
+    text-align: start;
+    font-family: 'Source Code Pro', monospace;
+    display: inline;
+    cursor: pointer;
+}
+
+.cards li h3:hover {
+    color: var(--color);
+}
+
+.skillicons {
+    margin-right: 4px;
+}
+
+.bar {
+    display: block;
+    height: 30%;
+    background-color: white;
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.bar span {
+    height: 100%;
+    float: left;
+    background-color: var(--color);
+}
+
+.python {
+    width: 80%;
+    /* animation: python 3s; */
+}
+
+.mysql {
+    width: 80%;
+    /* animation: python 3s; */
+}
+
+.html {
+    width: 60%;
+    /* animation: python 3s; */
+}
+
+.css {
+    width: 60%;
+    /* animation: python 3s; */
+}
+
+.mongodb {
+    width: 40%;
+    /* animation: python 3s; */
+}
+
+.C {
+    width: 50%;
+    /* animation: python 3s; */
+}
+
+
+/* 
+@keyframes python {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+} */
+
+
+/* .skill {
     width: 100%;
-    height: 10%;
-    /* border: 2px solid yellow; */
+    height: 50%;
+    border: 2px solid yellow;
     background-color: yellow;
-    margin: 10px 0px;
+    margin: 2px 0px;
 }
 
 .level {
     width: 100%;
     height: 10%;
     background-color: purple;
-    margin: 10px 0px;
-}
+    margin: 10px 4px 4px 0px;
+} */
