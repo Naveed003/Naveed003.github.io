@@ -2,7 +2,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 6vh;
+    min-height: 6vh;
     background-color: black;
     color: white;
 }

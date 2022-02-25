@@ -1,3 +1,14 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
 .main {
     background-color: #202C33;
     /* height: calc(100vh - 78.15px - 6vh); */
@@ -5,6 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 .head {
@@ -101,4 +113,10 @@
 
 .skillCard {
     width: 85vw;
+    height: 60vh;
+    border: 1px solid red;
+}
+
+.skill {
+    height: 100px;
 }
