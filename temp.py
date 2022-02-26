@@ -1,0 +1,11 @@
+total=int(input())
+total-=total/6
+print(total)
+total-=total/5
+print(total)
+total-=total/4
+print(total)
+total-=total/3
+print(total)
+total-=total/2
+print(total)

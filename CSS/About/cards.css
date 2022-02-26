@@ -1,5 +1,6 @@
 .cards {
     width: 25%;
+    min-width: 100px;
     background-color: #30393f;
     /* background-color: #27353f; */
     margin: 10px;
@@ -9,6 +10,7 @@
     flex-direction: column;
     /* justify-content: center; */
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
 }
 
 .cards li {
@@ -16,11 +18,12 @@
 }
 
 .cards li h3 {
-    text-transform: uppercase;
     text-align: start;
+    /* font-size: 100%; */
     font-family: 'Source Code Pro', monospace;
     display: inline;
     cursor: pointer;
+    color: #FFFFE0;
 }
 
 .cards li h3:hover {
@@ -32,6 +35,7 @@
 }
 
 .bar {
+    box-sizing: border-box;
     display: block;
     height: 30%;
     background-color: white;
