@@ -1,14 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@500&family=JetBrains+Mono:ital,wght@0,400;1,700&family=Merriweather+Sans&family=Source+Code+Pro:wght@200;400&family=Ubuntu:wght@400;500&display=swap');
-.pad{
-    padding: 13px 0px;
+.m0 {
+    margin: 0;
 }
 
-.line{
-    width: 1px;
-    background-color:var(--color);
-    height: 40px;
+.p0 {
+    padding: 0;
 }
 
- .selected{
-    color: var(--color);
+.flexbox-column {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap, 1rem);
+}
+
+.flexbox-row {
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap, 1rem);
+}
+
+html {
+    background-image: url("/IMG/mac.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.white {
+    color: white;
+}
+
+body {
+    overflow-x: hidden;
 }

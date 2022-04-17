@@ -1,0 +1,124 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.main {
+    background-color: #202C33;
+    /* height: calc(100vh - 78.15px - 6vh); */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main-container {
+    color: var(--color);
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    height: 70vh;
+    width: 90vw;
+}
+
+.main-container IMG {
+    height: 70vh;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 4vw;
+    font-weight: 100;
+}
+
+.name {
+    font-size: 3vw;
+    font-weight: 1000;
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+}
+
+.about {
+    font-size: 2vw;
+    font-weight: 200;
+}
+
+.Moreabout {
+    word-wrap: normal;
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+
+.btn button {
+    padding: 8px;
+    border-radius: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 15px 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn button:hover {
+    color: white;
+    background-color: var(--color);
+}
+
+.skills {
+    width: 90vw;
+    color: var(--color);
+    font-size: 2vw;
+    margin-top: 20px;
+}
+
+.SkillHeading {
+    display: flex;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.skilltext {
+    font-family: 'JetBrains Mono', monospace;
+    /* text-decoration: underline; */
+}
+
+.skillCard {
+    width: 85vw;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.skill {
+    height: 100px;
+}

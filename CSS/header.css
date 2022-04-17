@@ -1,73 +1,62 @@
-* {
-    margin: 0;
-    padding: 0;
-    --width: 80vw;
-    --color: #AE8056;
+.name-container {
+    align-items: center;
+    margin: 5px 10px;
 }
 
-.header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    max-width: 100%;
+.info {
+    display: inline-block;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.name {
+    margin-left: 5px;
 }
 
 .nav-bar {
-    margin: 10px;
-    width: 100vw;
-    display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
 }
 
-.nav-bar ul {
-    display: flex;
+.menu-container {
+    background: hsl(0 0% 100%/0.1);
+    backdrop-filter: blur(1rem);
+    border-radius: 10px;
+    padding: 1rem;
 }
 
-.nav-bar ul a li {
-    list-style: none;
-    /* margin: 10px; */
+.mobile-nav-toggle {
+    display: none;
 }
 
-.name a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 20px;
-}
-
-.name a img {
-    margin-right: 13px;
-}
-
-.tochange {
-    margin-top: 0px;
-    text-decoration: none;
-    color: white;
-    padding-left: 21px;
-    padding-right: 21px;
-    /* font-family: 'Source Code Pro', monospace; */
-    font-family: 'JetBrains Mono', monospace;
-    font-weight: 600;
-}
-
-.tochange:hover {
-    color: var(--color);
-}
-
-.right {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.line {
-    width: 1px;
-    background-color: var(--color);
-    height: 40px;
-}
-
-.selected {
-    color: var(--color);
+@media (max-width:35em) {
+    .menu-container {
+        --gap: 2em;
+        position: fixed;
+        inset: 0 0 0 30%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: min(30vh, 10rem) 2em;
+        border-radius: 0;
+        z-index: 1000;
+        transform: translateX(100%);
+        transition: transform 350ms ease-out;
+    }
+    .menu-container[data-visible="true"] {
+        transform: translateX(0%);
+    }
+    .mobile-nav-toggle {
+        display: block;
+        position: absolute;
+        background: transparent;
+        border: 0;
+        font-size: 2rem;
+        top: 2rem;
+        right: 2rem;
+        z-index: 9999;
+    }
+    .line {
+        display: none;
+    }
 }

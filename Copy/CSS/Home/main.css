@@ -1,0 +1,59 @@
+.main {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 78.15px - 6vh);
+    background-image: url("/IMG/mac.jpeg");
+    /* height: 100vh; */
+    width: 100%;
+    background-size: cover;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+
+hr {
+    color: var(--color);
+    width: 100%;
+}
+
+.intro {
+    display: flex;
+    color: white;
+    font-weight: 900;
+}
+
+.typing {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Source Code Pro', monospace;
+    Text-transform: uppercase;
+    text-align: center;
+    /* color: rgb(255, 153, 0); */
+}
+
+.typing::after {
+    content: "";
+    position: absolute;
+    right: -4px;
+    width: 1px;
+    height: 90%;
+    border-right: 2px solid white;
+    margin-top: 5px;
+    animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
