@@ -8,15 +8,21 @@ navToggle.addEventListener('click', () => {
     if (visiblity === "false") {
         primaryNav.setAttribute("data-visible", true);
         navToggle.setAttribute("aria-expanded", true);
-        toggle.classList.add("fa-xmark");
         toggle.classList.remove("fa-bars");
+        setTimeout(() => {
+            toggle.classList.add("fa-xmark");
+        }, 340);
+
 
     } else {
         primaryNav.setAttribute("data-visible", false);
         navToggle.setAttribute("aria-expanded", false);
 
-        toggle.classList.add("fa-bars");
         toggle.classList.remove("fa-xmark");
+        setTimeout(() => {
+
+            toggle.classList.add("fa-bars");
+        }, 340);
 
 
     }
